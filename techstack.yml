@@ -1,0 +1,32 @@
+repo_name: jmyx0225/awesome
+report_id: 6bd60f031e15d1e944002dc140b08221
+version: 0.1
+repo_type: Public
+timestamp: '2024-06-29T03:09:52+00:00'
+requested_by: gao-sun
+provider: github
+branch: main
+detected_tools_count: 2
+tools:
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/jmyx0225/awesome
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/jmyx0225/awesome/blob/main/.github/workflows/main.yml
+  detection_source: ".github/workflows/main.yml"
+  last_updated_by: Sindre Sorhus
+  last_updated_on: 2023-11-10 22:07:23.000000000 Z
